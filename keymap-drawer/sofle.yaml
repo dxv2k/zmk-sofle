@@ -99,9 +99,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB5'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - PG DN
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-up-bold$$
   - $$mdi:arrow-right-bold$$
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
@@ -260,3 +260,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [56, 12]
+  k: Gui+ =
+- p: [56, 11]
+  k: Gui+ -
+- p: [56, 33]
+  k: Ctl+Sft+ $$mdi:keyboard-tab$$
+- p: [56, 36]
+  k: Ctl+ $$mdi:keyboard-tab$$
