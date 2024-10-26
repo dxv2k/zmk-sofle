@@ -61,7 +61,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:keyboard-esc$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-shift$$
-  - layer1
+  - {t: '$$mdi:backspace$$', h: layer1}
   - '2'
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
