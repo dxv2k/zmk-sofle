@@ -60,9 +60,9 @@ layers:
   - LGUI
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:keyboard-esc$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
-  - {t: '$$mdi:backspace$$', h: layer1}
-  - '2'
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: layer1}
+  - {t: '$$mdi:keyboard-esc$$', h: '2'}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   layer1:
