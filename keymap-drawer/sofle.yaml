@@ -265,7 +265,7 @@ combos:
   k: Gui+ =
 - p: [56, 11]
   k: Gui+ -
-- p: [56, 33]
+- p: [56, 34]
   k: Ctl+Sft+ $$mdi:keyboard-tab$$
-- p: [56, 36]
+- p: [56, 35]
   k: Ctl+ $$mdi:keyboard-tab$$
