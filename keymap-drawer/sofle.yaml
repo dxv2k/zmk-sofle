@@ -261,9 +261,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [56, 12]
-  k: Gui+ =
 - p: [56, 11]
+  k: Gui+ =
+- p: [56, 10]
   k: Gui+ -
 - p: [0, 13]
   k: $$mdi:keyboard-esc$$
