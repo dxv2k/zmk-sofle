@@ -47,12 +47,12 @@
 
         zoom_in {
             bindings = <&kp LG(EQUAL)>;
-            key-positions = <56 12>;
+            key-positions = <56 11>;
         };
 
         zoom_out {
             bindings = <&kp LG(MINUS)>;
-            key-positions = <56 11>;
+            key-positions = <56 10>;
         };
 
         escape_btn {
