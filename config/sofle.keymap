@@ -28,6 +28,10 @@
             time-to-max-speed-ms = <400>;      // 500
             delay-ms = <0>;                   //   10
         };
+
+        tap_hold {
+            tapping-term-ms = <50>; // Default is 400, too slow for me
+        };
     };
 
     scroll_encoder: scroll_encoder {
