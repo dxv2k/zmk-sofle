@@ -30,7 +30,7 @@
         };
 
         tap_hold {
-            tapping-term-ms = <50>; // Default is 400, too slow for me
+            tapping-term-ms = <200>; // Default is 400, too slow for me
         };
     };
 
