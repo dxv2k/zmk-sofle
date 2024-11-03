@@ -30,7 +30,8 @@
         };
 
         tap_hold {
-            tapping-term-ms = <80>; // Default is 400, too slow for me
+            tapping-term-ms = <20>;         // Tweak this to achieve a faster response time
+            quick_tap_ms = <10>;            // Ensures a quick tap registers without modifier
         };
     };
 
